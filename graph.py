@@ -25,9 +25,9 @@ class Shift(Scene):
 
         formula =MathTex("x(t)=")
 
-        text=MathTex("1 __ -1<t<0")
-        text1=MathTex("1-0.5t __  0<t<2")
-        text2=MathTex("0   __  otherwise")
+        text=MathTex("1 | -1<t<0")
+        text1=MathTex("1-0.5t |  0<t<2")
+        text2=MathTex("0   |  otherwise")
 
         rule=VGroup(text,text1,text2)
 
